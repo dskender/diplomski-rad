@@ -1460,7 +1460,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #177899;
   text-decoration: none;
   background-color: transparent
 }
@@ -3760,8 +3760,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff
+  background-color: #177899;
+  border-color: #177899
 }
 
 .btn-primary.focus,
@@ -18610,6 +18610,7 @@ main {
   transition: transform 0.3s;
   color: #ffffff;
   text-decoration: none;
+  font-weight: bold;
   z-index: 100;
 }
 
@@ -19123,7 +19124,7 @@ main {
 .aside--articles .nav li a {
   position: relative;
   display: block;
-  color: #939393;
+  color: #626262;
   padding: 0 5px;
   text-decoration: none!important
 }
@@ -19283,6 +19284,13 @@ main {
   height: auto
 }
 
+.aside--videos .videos-list--item a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #626262;
+  text-decoration: underline;
+}
+
 .aside--videos .videos-list--item .play {
   position: absolute;
   left: 0;
@@ -19360,7 +19368,7 @@ main {
 
 .aside--survey .survey .totalpoll-buttons .btn-link,
 .aside--survey .totalpoll-poll-container .totalpoll-buttons .btn-link {
-  color: #1a8bb1!important;
+  color: #177899 !important;
   text-decoration: none!important
 }
 
@@ -19375,7 +19383,7 @@ main {
 
 .aside--survey .survey .totalpoll-buttons .btn-primary,
 .aside--survey .totalpoll-poll-container .totalpoll-buttons .btn-primary {
-  background-color: #1a8bb1!important
+  background-color: #177899!important
 }
 
 @media (max-width:575px) {
